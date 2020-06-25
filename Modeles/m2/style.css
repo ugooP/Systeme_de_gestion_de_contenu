@@ -1,0 +1,138 @@
+
+
+/* MAIN COLOR : #fece0c */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    background-color: #fece0c;
+    height: 7vh;
+    box-shadow: 0px 2px 14px 0px rgba(74,74,74,.6);
+    position: sticky;
+        top: 0;
+}
+header h1 {
+    margin: 0;
+    margin-left: 20px;
+    color: white;
+    font-weight: 800;
+    line-height: 7vh;
+    float: left;
+    text-transform: uppercase;
+    /* font-style: ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN1 */
+#main1 {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main1 h1 {
+    margin: 0;
+    font-size: 75px;
+    font-weight: 800;
+    /* font-style: ; */
+}
+#main1 a img {
+    margin-top: 15px;
+    width: 200px;
+}
+
+/* SPAN1 */
+.span1 {
+    width: 50%;
+    height: 3px;
+    background-color: #fece0c;
+    display: block;
+    margin: 0 25% 0 25%;
+}
+
+/* MAIN2 */
+#main2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+/* CARDS */
+#main2 .card {
+    width: 650px;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#main2 .card img {
+    width: 40px;
+    height: 40px;
+    padding: 13px;
+    background-color: #fece0c;
+    border-radius: 50%;
+}
+#main2 .card h2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+#main2 .card p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+/* RESEAUX SOCIAUX */
+ul {
+    margin: 0;
+    margin-right: 50px;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-right: 60px;
+}
+ul li img {
+    width: 40px;
+}
+
+
+/* FLECHE BOTTOM */
+.fleche_bottom img {
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

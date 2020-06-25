@@ -1,0 +1,122 @@
+/* MAIN COLOR : #db324d */
+/* BG COLOR : #1a1a1a */
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: montserrat, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    position: sticky;
+        top: 0;
+}
+header h1 {
+    margin: 0 20px;
+    line-height: 55px;
+    text-transform: uppercase;
+    /* font-style: ; */
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 15px;
+    transition: background-color .3s, border-radius .2s;
+}
+header ul li a:hover {
+    border-radius: 15px;
+    background-color: #db324d;
+}
+
+/* MAIN 1 */
+.main1 {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main1 h1 {
+    margin: 0;
+    color: #db324d;
+    font-size: 60px;
+    /* font-style: ; */
+    margin-left: 400px;
+}
+.main1 p {
+    margin: 0;
+    margin-left: 470px;
+    font-size: 20px;
+}
+
+/* SCROLL */
+.scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scroll .mouse {
+    width: 40px;
+    height: 45px;
+}
+.scroll .line {
+    width: 5px;
+    margin-top: 12px;
+}
+
+/* MAIN 2 */
+.main2 {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#services, #actualites, #propos, #contact {
+    width: 70%;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#services h2, #actualites h2, #propos h2, #contact h2 {
+    display: inline;
+    padding-right: 10px;
+    transition: box-shadow .3s ease-in-out, width .3s ease-in-out;
+}
+#services p, #actualites p, #propos p, #contact p {
+    text-align: justify;
+    text-indent: 30px;
+}
+#services:hover h2, #actualites:hover h2, #propos:hover h2, #contact:hover h2 {
+    box-shadow: inset 0 -11px #db324d;
+}
+#contact ul {
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#contact img {
+    width: 50px;
+}
